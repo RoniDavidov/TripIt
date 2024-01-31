@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/picture"
+    ></ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+
+        >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:id="@+id/name"
+    android:text="כותרת"
+></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/tior"
+            android:layout_marginTop="10dp"
+            android:text="תיאור"
+            ></TextView>
+
+    </LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="1-3"
+    android:layout_marginTop="25dp"
+    android:layout_marginLeft="80dp"
+    android:textSize="35dp"
+    android:textStyle="bold"
+    android:textColor="#FF5722"
+    android:id="@+id/num"
+    ></TextView>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#E85928">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ברוכים הבאים ל-"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="39dp"
+        android:textStyle="bold"
+        android:textColor="#ECC4B7"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TripIt"
+        android:layout_gravity="center"
+        android:textSize="110dp"
+        android:layout_marginTop="28dp"
+        android:textStyle="bold"
+        android:textColor="#E6BFB1"
+
+        ></TextView>
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#30ffffff"
+        android:text="רשומים כבר?"
+        android:textColor="#371205"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:id="@+id/login"
+
+        ></Button>
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#30ffffff"
+        android:text="בואו נירשם!"
+        android:textColor="#371205"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:id="@+id/signin"
+
+
+        ></Button>
+
+
+</LinearLayout>

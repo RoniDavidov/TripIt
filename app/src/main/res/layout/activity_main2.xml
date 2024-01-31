@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="בואו ניכנס ונתחיל!"
+        android:textColor="#F1DBD2"
+        android:textSize="38sp"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/baseline_person_24"></ImageView>
+
+    <EditText
+        android:id="@+id/username2"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/baseline_person_outline_24"
+        android:drawablePadding="20dp"
+        android:hint="username"
+        android:padding="20dp"
+        android:text=""
+        android:textColor="#EAB199"
+        android:textSize="23dp"
+        android:textStyle="bold"></EditText>
+
+    <EditText
+        android:id="@+id/passsword2"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/baseline_info_24"
+        android:drawablePadding="20dp"
+        android:hint="password"
+        android:inputType="numberPassword"
+        android:padding="20dp"
+        android:text=""
+        android:textColor="#EBAC91"
+        android:textSize="23dp"
+        android:textStyle="bold"></EditText>
+
+    <Button
+        android:id="@+id/btlogin2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#EBAC91"
+        android:text="log in"
+        android:textColor="#E96334"
+        android:textSize="25sp"
+
+        android:textStyle="bold"></Button>
+
+</LinearLayout>

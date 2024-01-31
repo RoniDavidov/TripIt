@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="#DDE67852"
+    android:outlineAmbientShadowColor="#1E0402"
+    android:clipToOutline="true">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="x"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:backgroundTint="#D83A03"
+        android:id="@+id/leave"
+        ></Button>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="username"
+        android:textSize="18dp"
+        android:textColor="#D73A03"
+        android:text=""
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:background="#30ffffff"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/baseline_info_24"
+        android:drawablePadding="10dp"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/passsword"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="password"
+        android:text=""
+        android:textColor="#D73A03"
+        android:textSize="18dp"
+        android:layout_marginTop="30dp"
+        android:inputType="numberPassword"
+        android:textStyle="bold"
+        android:background="#30ffffff"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/baseline_info_24"
+        android:drawablePadding="10dp"
+        ></EditText>
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btlogin2"
+        android:backgroundTint="#D73A03"
+        android:text="log in"
+        android:textSize="20sp"
+
+        ></Button>
+</LinearLayout>
